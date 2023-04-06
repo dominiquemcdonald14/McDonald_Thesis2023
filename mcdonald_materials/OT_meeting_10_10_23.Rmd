@@ -1,0 +1,44 @@
+---
+title: "Meeting 10-10-2023"
+author: "Dominique McDonald"
+date: "2023-02-17"
+output: pdf_document
+---
+
+The Kantorovich Formulation is an infinited dimensional problem. In order to understand it, we will first consider the finite dimensional problem.(add graphics - DJM)\newline
+
+
+Suppose we want to find the global minimum of a function, f,  with multiple local minima. A common approach is to take the derivative, but that may only give us a local minimum rather than the global minimum we are after. THe Kantorovhich duality proposes a new to find a minimum.\newline
+
+The idea is to  find a function, g, that is less than or equal to f everywhere (should this be a.e ???). If there is a point, x, where g touches f, then we can conclude that x is global minimum for f. \newline
+
+
+
+Suppose we have 3 suppliers $x_1, x_2, x_3$ and three buyers $y_1, y_2, y_3$ and $c(x_i,y_j)$ is the cost of a transaction between supplier j and buyer i. In the context of the Monge problem a buyer can only purchase from one supplier and a supplier can only sell to one buyer. Practically, this may not be ideal though. A buyer may want to purchase from multiple suppliers. The Kantorovich formulation offers a more relaxed option. in which a buyer can purchase from more than one seller and same for the suppliers selling to buyers. There is a condition imposed in both the Monge and Kantorovich formulations: the amount of supplies sold must be equal to the amount of supplies purchased. (Include graphic/example - DJM) \newline
+
+
+Now we will define a transport map and potential. \newline
+
+
+\textbf{Definition (Transport Map)} \newline
+A transport map $T:\mathbb{R}^d \rightarrow \mathbb{R}$ is a borel measure such that ... (DJM)
+
+
+\textbf{Definition (Outer Probability Measure)} \newline
+An outer probability measure on $\mathbb{R}^d$ is a real-valued function, $\mu$ , defined on the subset of $\mathbb{R}^d$ which satifies the following
+
+- $\mu(\emptyset) = 0$ \newline
+- $0 \leq \hspace{.2 cm} \mu[A] \hspace{.2cm} \leq \hspace{.2cm} \sum_{i=1}^\infty \mu[A_i]$  if  $A \subset \hspace{.2cm} \cup _{i=1}^\infty A_i$ \newline
+- $\mu[\mathbb{R}^d] = 1$ \newline
+
+
+\textbf{notation} \newline
+$2^{\mathbb{R}^d}$ is the collection of all subsets of $\mathbb{R}^d$. If x is a set, $2^x$ is the collection of all subsets of x.
+
+
+
+
+
+
+
+
