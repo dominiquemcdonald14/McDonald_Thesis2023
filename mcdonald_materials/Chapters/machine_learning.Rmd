@@ -1,0 +1,22 @@
+---
+title: "Thesis Chapter - Machine Learning"
+author: "Dominique McDonald"
+date: "2023-05-03"
+output: pdf_document
+---
+
+\section{Machine Learning}
+In order to accomplish image transfer, we need to understand the structure and behavior of a Convolutional Neural Network (CNN). This is, however, a fairly complex deep learning algorithm, so we will, instead, start with a simpler machine learning tool, logistic regression. This will lead us to the multi-layer perceptron via the neural network structure, which is what the CNN is modeled after. We will also examine the Transformer as we perform style transfer in the feature space of an image which we access using the encoder after which we use the decoder to produce a stylized image. The objective of this chapter is to outline the machine learning methods employ in the image style transfer process.
+
+\subsection{Logistic Regression}
+Logistic regression is one of the simpler forms of machine learning, but can be generalized in ways that are very powerful. The goal of logistic regression is classification, so it useful when the response variable in a model is binary ({0,1},{female,male},{win, lose},etc.). This model consists of a linear combination followed by a non-linear transformation that leads to a prediction. Given  
+
+
+\subsection{Neural Network and the Multi-Layer Perceptron}
+
+
+
+\subsection{Convolutional Neural Network}
+
+
+\subsection{Transformer (Encoder/Decoder)}
